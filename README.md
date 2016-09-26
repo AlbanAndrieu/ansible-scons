@@ -1,6 +1,6 @@
 ## alban.andrieu.scons
 
-[![Travis CI](http://img.shields.io/travis/AlbanAndrieu/ansible-scons.svg?style=flat)](http://travis-ci.org/AlbanAndrieu/ansible-scons) [![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-scons.svg?style=flat-square)](https://github.com/AlbanAndrieu/ansible-scons/tree/master) [![Donate](https://img.shields.io/gratipay/AlbanAndrieu.svg?style=flat)](https://www.gratipay.com/AlbanAndrieu)  [![Ansible Galaxy](http://img.shields.io/badge/galaxy-alban.andrieu.scons-blue.svg?style=flat)](https://galaxy.ansible.com/list#/roles/1628) [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
+[![Travis CI](http://img.shields.io/travis/AlbanAndrieu/ansible-scons.svg?style=flat)](http://travis-ci.org/AlbanAndrieu/ansible-scons) [![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-scons.svg?style=flat-square)](https://github.com/AlbanAndrieu/ansible-scons/tree/master) [![Donate](https://img.shields.io/gratipay/AlbanAndrieu.svg?style=flat)](https://www.gratipay.com/AlbanAndrieu)  [![Ansible Galaxy](http://img.shields.io/badge/galaxy-alban.andrieu.scons-blue.svg?style=flat)](https://galaxy.ansible.com/list#/roles/28257) [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 
 Ensures that scons is installed (using `apt`)
 
