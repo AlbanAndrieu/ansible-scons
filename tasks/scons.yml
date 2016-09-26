@@ -1,0 +1,9 @@
+---
+# This playbook contains common plays that will be run on all nodes.
+
+- name: Install scons
+  action: "{{ ansible_pkg_mgr}} name={{ item }} update_cache=yes state={{ scons_pkg_state|default('present') }}"
+  tags: package
+  with_items:
+   - scons
+  become: yes
