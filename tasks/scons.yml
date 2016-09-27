@@ -1,9 +1,19 @@
 ---
 # This playbook contains common plays that will be run on all nodes.
 
-- name: Install scons
+- name: Include OS specific vars
+  tags: scons
+  include_vars: "{{ ansible_os_family }}.yml"
+
+- name: scons | Install scons
   action: "{{ ansible_pkg_mgr}} name={{ item }} update_cache=yes state={{ scons_pkg_state|default('present') }}"
   tags: package
   with_items:
    - scons
+  become: yes
+
+- name: scons | Install required packages
+  action: "{{ ansible_pkg_mgr }} state={{ util_package_state|default('present') }} name={{ item }}"
+  with_items: "{{ scons_package_list }}"
+  tags: scons
   become: yes
